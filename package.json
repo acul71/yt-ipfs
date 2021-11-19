@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "commander": "^8.3.0"
+    "commander": "^8.3.0",
+    "youtube-dl-wrap": "^2.1.1"
   }
 }
