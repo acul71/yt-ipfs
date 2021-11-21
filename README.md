@@ -1,5 +1,11 @@
 ## yt-ipfs
-Add a wrapper around youtube-dl/yt-dip so that you can preserve and share videos on a decentralized storage system
+Add a wrapper around youtube-dl/yt-dip so that you can preserve and share videos on a decentralized storage system<b>
+
+It is a command line utility made with nodejs that adds a wrapper to youtube-dl and upload the downloaded video to web3.storage to preserve and share.<b>
+
+It uses:<b>
+- commander: for manage arguments<b>
+- youtube-dl-wrap: to call youtube-dl<b>
 
 Example:<br>
 ```
@@ -70,6 +76,7 @@ Options:
     $ yt-ipfs https://www.youtube.com/watch?v=EngW7tLk6R8
 ```
 # Setting UP
+Install youtube-dl https://youtube-dl.org/ (with ffmpeg for video format conversion)<b>
 ```
 git clone https://github.com/acul71/yt-ipfs
 yarn install
