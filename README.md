@@ -79,7 +79,8 @@ Options:
 Install youtube-dl https://youtube-dl.org/ (with ffmpeg for video format conversion)<b>
 ```
 git clone https://github.com/acul71/yt-ipfs
-yarn install
+cd yt-ipfs/
+npm install
 ```
 You have to configure a web3.storage TOKEN<br>
 See https://docs.web3.storage/#quickstart for getting one<br>
